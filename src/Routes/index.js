@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homepage from './Pages/Homepage';
-import App from './App';
-import Top from './Pages/top/Top';
-import Bottom from './Pages/bottom/Bottom';
-import Jacket from './Pages/jacket/Jacket';
-import Ring from './Pages/acc/ring';
-import Earing from './Pages/acc/earing';
-import Belt from './Pages/acc/belt';
+import Homepage from '../Pages/Homepage';
+import App from '../App';
+import Top from '../Pages/top/Top';
+import Bottom from '../Pages/bottom/Bottom';
+import Jacket from '../Pages/jacket/Jacket';
+import Ring from '../Pages/acc/ring';
+import Earing from '../Pages/acc/earing';
+import Belt from '../Pages/acc/belt';
 
 function Routing() {
   return (

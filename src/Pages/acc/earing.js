@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from './Card';
+import Card from '../../Components/Card';
 
 function Earing() {
   return (

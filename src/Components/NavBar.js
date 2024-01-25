@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import Search from './Search';
+
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -19,6 +21,7 @@ function NavBar() {
               <NavDropdown.Item href="/accessory/earing">earing</NavDropdown.Item>
               <NavDropdown.Item href="/accessory/belt">belt</NavDropdown.Item>
             </NavDropdown>
+            <Search />
           </Nav>
         </Navbar.Collapse>
       </Container>
